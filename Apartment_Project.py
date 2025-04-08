@@ -29,6 +29,8 @@ current_date = now1.strftime("%Y/%m/%d")
 today = pd.to_datetime('now').strftime("%d.%m.%y")
 options = Options()
 
+
+# git remote add origin https://github.com/astonle-68/Apartment-Project.git
 #%%
 lst_p = []
 for i in range(0, 75):  # 74, 160
