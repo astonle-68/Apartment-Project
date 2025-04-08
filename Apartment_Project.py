@@ -8,11 +8,6 @@ from IPython import get_ipython
 get_ipython().magic('reset -sf') 
 import pandas as pd
 import numpy as np
-import datetime as dt
-import re
-import gspread
-import csv
-import time
 import glob
 import geopandas as gp
 import unidecode
@@ -140,7 +135,7 @@ from collections import namedtuple
 import pandas as pd
 
 lst_file = []
-for file in glob.glob('''D:/MOHO's OTHER PROJECT/Crawling DATA BY PYTHON/Data/Project_Estate_BDS/Raw_Data/*.xlsx'''):
+for file in glob.glob('''/*.xlsx'''):
     lst_file.append(file)
 
 lst_df = []
