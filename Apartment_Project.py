@@ -40,26 +40,15 @@ for i in range(0, 75):  # 74, 160
     options.binary_location = "D:/MOHO - DOANH SỐ/Google/Chrome Beta/Application/chrome.exe" # https://stackoverflow.com/questions/45500606/set-chrome-browser-binary-through-chromedriver-in-python
     driver = webdriver.Chrome(chrome_options=options, executable_path="D:/Chromedriver/BETA/chromedriver.exe") # https://googlechromelabs.github.io/chrome-for-testing/
     driver.set_window_size(960, 540) # 1920, 1080
-    
-    
-    
     Status = []
-    n_p = 1488 # số dự án 
-    
-    # Dự án HCM:https://duan.batdongsan.com.vn/can-ho-chung-cu-tp-hcm/p
-    # Tất cả dự án: https://batdongsan.com.vn/du-an-can-ho-chung-cu/p
     c = 0
     c_1 = 0
     set_speed = 0.5
-    
-        
     Product_name = []
     driver.get('https://batdongsan.com.vn/du-an-can-ho-chung-cu/p'+ str(i)) # https://duan.batdongsan.com.vn/can-ho-chung-cu/p
     sleep(set_speed)
-    
     SCROLL_PAUSE_TIME = set_speed
     last_height = driver.execute_script("return document.body.scrollHeight")
-    
     while True:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         sleep(SCROLL_PAUSE_TIME)
@@ -307,31 +296,6 @@ check = df['province'].value_counts()
 
 df['province'] = df['province'].astype(str)
 
-# def fix_province(r):
-#     temp = r['province']
-#     if 'hcm' in temp or 'ho chi minh' in temp:
-#         return 'ho chi m'
-#     elif 'vung tau' in temp or 'ba ria - vung tau' in temp:
-#         return 'ba ria-vung'
-#     elif 'da lat' in temp:
-#         return 'lam dong'
-#     elif 'quy nhon' in temp:
-#         return 'binh dinh'
-    
-#     else:
-#         return temp
-# df['province'] = df.apply(fix_province, axis = 1)
-
-
-#%% change address cols to match key
-# def modify_province(r):
-#     if r['province'] == 'ho chi minh':
-#         return 'ho chi m'
-#     elif r['province'] == 'ba ria - vung tau':
-#         return 'ba ria-vung'
-#     else:
-#         return r['province']
-# df['province'] = df.apply(modify_province, axis=1)
 
 def modify_district(r):
     remove_list = ['thanh pho','quan','huyen','thi xa']
