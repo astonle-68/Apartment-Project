@@ -1,4 +1,4 @@
-## 🔗Apartment Project
+## Apartment Project
 Knowledged
 - Python
   + Selenium
@@ -6,7 +6,7 @@ Knowledged
   + Geopandas
   + Gspread
 - Tableau
-## 🔗 Apartment Project | [https://github.com/astonle-68/Apartment-Project/](https://github.com/astonle-68/Apartment-Project/)
+## Apartment Project | [https://github.com/astonle-68/Apartment-Project/](https://github.com/astonle-68/Apartment-Project/)
 - Youtube | demo
 - Selenium | [crawl data on the website batdongsan.com.vn](https://github.com/astonle-68/Apartment-Project/blob/master/Crawl_Data.py)
 - Pandas, Geopandas, Gspread | [build to DataFrame, transform data, get corrdinate of location](https://github.com/astonle-68/Apartment-Project/blob/master/ETL_Data.py)
